@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+hr {
+    width: 70px;
+    height: 1px;
+    background-color: #007bff;
+    margin: auto;
+}
+
+.header {
+    height: 70vh;
+    background-image: url('../mojeportfolio/images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    text-transform: uppercase;
+    color: #007bff;
+    font-size: 60px;
+    margin: 0;
+       
+}
+
+.header p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header span {
+    color: #007bff;
+    
+}
+
+
+.header a {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #007bff;
+    color: #333;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 0.4s;
+    
+}
+
+
+.header a:hover {
+    background-color: #007bff;
+    color: #fff;
+    
+}
+
